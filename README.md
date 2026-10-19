@@ -22,4 +22,5 @@ You can see the coordinates in the games map. The last digit is the smallest gri
 
 3. Once all the information is entered, press "Calculate firing solution". You will hear a beep and the firing solution is outputted. If nothing happens or something weird happens, make sure that all the information is filled correctly.
 
+4. If you miss your target, you can put the correction in the "correction" field in meters. For example, if you miss the target 20 meters east and 50 meters north, you put 20 meters in the "West" field and 50 meters in the "South" field. Press "Calculate firing solution" to recalculate the firing solution with the corrections.
 
