@@ -1,5 +1,9 @@
 # Patch notes:
 
+# 1.3:
+- Fixed issue with wind not being applied
+- Changed the firing equations from polynomial 2 to polynomial 6 (More accurate graph)
+  
 # 1.2:
 - Added (-) to coordinates and azimuth to increase readibility
 - Fixed problem where some of the ammunition was corrected in the wrong direction. Now all rounds should land within 15 meters.
