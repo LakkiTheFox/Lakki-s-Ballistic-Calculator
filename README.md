@@ -1,21 +1,3 @@
-# Patch notes:
-# 1.4:
-- Added flight time
-- Changed the polynomial to 3
-- Changed the firing solution to format: Azimuth/Elevation/Charge/Flight time
-  
-# 1.3:
-- Fixed issue with wind not being applied
-- Changed the firing equations from polynomial 2 to polynomial 6
-  
-# 1.2:
-- Added (-) to coordinates and azimuth to increase readibility
-- Fixed problem where some of the ammunition was corrected in the wrong direction. Now all rounds should land within 15 meters.
-- Corrections now get added to the coordinates and will dissappear when a firing solution is calculated. Prevents mistakingly calculating a new fire mission with coordinates.
-
-# 1.1:
-- Increased accuracy 5-10%
-
 
 
 # Lakki-s-Ballistic-Calculator
