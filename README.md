@@ -5,25 +5,56 @@ Ballistic calculator made for "Arma reforger". The calculator is a Python based 
 
 <img width="500" height="500" alt="ewrtheardtherhg" src="https://github.com/user-attachments/assets/cc9b9481-3e4f-462c-a36f-918a3f283aa1" />
 
+<img width="4491" height="912" alt="image" src="https://github.com/user-attachments/assets/9dbdeef9-096f-4bd5-bcad-d1ace481d77d" />
 
 # How to use:
 
-1. Select the Weapon and Ammo type you want to use
-2. Input the required information (Your own position and targets position) (Minimum required information are mortar coordinates and target coordinates)
+1. Select the mortar you want to use
+- M252 
+- 2B14
+
+2. Select mortar armmo type
+- High-explosive
+- Smoke
+- Flare
    
-<img width="1920" height="907" alt="image" src="https://github.com/user-attachments/assets/b306c8b4-45a3-48ae-bb77-25748d789033" />
+3. Input coordinates. (The game gives you 3 numbers for a coordinate) (You get the last two by dividing the grid by 100) ( 3+2 - 3+2 )
+   
+4. Once the information is filled (Bare minimum: weapon, ammo, mortar and target coordinates), press "Calculate firing solution" to get the required information
+- If something funky happens, most likely it is due to incorrect filling of text fields
+     
 
-Example of what you should put in:
-"07750735"
+   
+# Coordinate example:
+Coordinate = 553 194
 
-"0775" the horizontal coordinate, "0735" is the vertical coordinate
+553 is yor horizontal coordinate
 
-You can see the coordinates in the games map. The last digit is the smallest grid (100x100 meters) divided by 10. So the last digit of the coordinate is within 10 meter accuracy.
+194 is your vertical coordinate
+
+Divide the grid to by 100 (00-99) (Horizontal, Left to right)
+
+Divide the grid to by 100 (00-99) (Vertical, Bottom to top)
+
+If using the example below, the coordinate would be the following:
+
+55325-19475
 
 <img width="1900" height="1890" alt="image" src="https://github.com/user-attachments/assets/05c30efb-d877-4f91-8c95-dce9d04edcac" />
 
 
-3. Once all the information is entered, press "Calculate firing solution". You will hear a beep and the firing solution is outputted. If nothing happens or something weird happens, make sure that all the information is filled correctly. If the target is out of range, it will say under the "calculate firing solution" button.
+# Corrections:
 
-4. If you miss your target, you can put the correction in the "correction" field in meters. For example, if you miss the target 20 meters east and 50 meters north, you put 20 meters in the "West" field and 50 meters in the "South" field. Press "Calculate firing solution" to recalculate the firing solution with the corrections.
+If you miss the target, you can use the "correction" feature. You can input either one or multiple corrections. You need to put the correction in meters in the corresponding box. Once you press "calculate firing solution" again with the corrections, the text fields will be emptied and the target coordinate will have the corrections applied to it.
+
+
+# Correction example:
+
+You shoot three rounds of high explosive on the target. Forward observer radios that you missed the target to the south by 150 meters and to the east by 50 meters.
+
+You put the same distance in the opposite directions text field.
+
+In this case, put "150" in the North field and "50" to the West field. You are basically telling the calculator, what way you want to move the aiming position relative to NESW.
+
+NOTE: The correction feature does not correct height. On a flat field this has no effect, but if the elevation changes significantly between corrections, change the "target height" to the correct height.
 
