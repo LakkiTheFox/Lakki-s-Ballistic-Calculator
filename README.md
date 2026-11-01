@@ -1,6 +1,6 @@
 
 
-# Lakki-s-Ballistic-Calculator
+# Lakki-s-Ballistic-Calculator (1.4v)
 Ballistic calculator made for "Arma reforger". The calculator is a Python based program and the .exe should run on any device.
 
 <img width="500" height="500" alt="ewrtheardtherhg" src="https://github.com/user-attachments/assets/cc9b9481-3e4f-462c-a36f-918a3f283aa1" />
