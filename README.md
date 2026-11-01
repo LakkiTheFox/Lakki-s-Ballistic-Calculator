@@ -1,8 +1,12 @@
 # Patch notes:
-
+# 1.4:
+- Added flight time
+- Changed the polynomial to 3
+- Changed the firing solution to format: Azimuth/Elevation/Charge/Flight time
+  
 # 1.3:
 - Fixed issue with wind not being applied
-- Changed the firing equations from polynomial 2 to polynomial 6 (More accurate graph)
+- Changed the firing equations from polynomial 2 to polynomial 6
   
 # 1.2:
 - Added (-) to coordinates and azimuth to increase readibility
@@ -34,7 +38,8 @@ Example of what you should put in:
 
 You can see the coordinates in the games map. The last digit is the smallest grid (100x100 meters) divided by 10. So the last digit of the coordinate is within 10 meter accuracy.
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/34d30cdc-ca13-407b-ad4d-c0a956d23d4c" />
+<img width="1900" height="1890" alt="image" src="https://github.com/user-attachments/assets/05c30efb-d877-4f91-8c95-dce9d04edcac" />
+
 
 3. Once all the information is entered, press "Calculate firing solution". You will hear a beep and the firing solution is outputted. If nothing happens or something weird happens, make sure that all the information is filled correctly. If the target is out of range, it will say under the "calculate firing solution" button.
 
