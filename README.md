@@ -7,6 +7,25 @@ Ballistic calculator made for "Arma reforger". The calculator is a Python based 
 
 <img width="4491" height="912" alt="image" src="https://github.com/user-attachments/assets/9dbdeef9-096f-4bd5-bcad-d1ace481d77d" />
 
+# General info:
+
+Python based program. Single-file executable. v1.0 - v1.4 Deveploment time roughly 3-4 weeks.
+
+# Features:
+- Coordinate accuracy within 1 meter, hit accuracy witin 40 meters
+- Firing solution which includes the azimuth, mills, charge and flight time
+- Able to account for wind and elevation
+- Correction feature
+
+# Upcoming/possible/not yet implomented features:
+- Ability to do different firemission types (Such as a creeping barrage or harrassing fire)
+- Calculate optimal mortar loadout depending on the amount of supplies
+
+
+# About me:
+I served a year as a Corporal mortar Jäger in the Finnish defense forces. Kind of obsessed with mortar and artillery systems. If you any questions, worries or improvement suggestions, you can message me on Discord: Lakki7011 or on Telegram: LakkiTheFox
+
+
 # How to use:
 
 1. Select the mortar you want to use
